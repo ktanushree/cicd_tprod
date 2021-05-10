@@ -13,7 +13,7 @@ sites v4.5:
       street: '41'
       street2:
     admin_state: active
-    description:
+    description: Test description 0510
     element_cluster_role: SPOKE
     elements v2.4:
       BLR-Branch-Device:
@@ -397,7 +397,7 @@ sites v4.5:
               stalepath_time: 120
           static v2.1: {}
         serial_number: 0cab1542-2f6a-6b0a-7998-270975d24fdc
-        software_version: 5.5.1-b7
+        software_version: 5.4.7-b1
         spoke_ha_config:
         state: bound
         tags:
