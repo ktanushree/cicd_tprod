@@ -1,0 +1,29 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2021-05-10T14:34:27.428598Z
+# by system_2751@soumyars2.com
+sites v4.5:
+  Test-DC:
+    address:
+    admin_state: disabled
+    description:
+    element_cluster_role: HUB
+    elements v2.4: {}
+    extended_tags:
+    hubclusters v2.0:
+      default-2751-16170258538600155:
+        admin_up: true
+        load_alarm_threshold: 90
+        subscription_factor: 0.5
+    location:
+      description:
+      latitude: 0.0
+      longitude: 0.0
+    nat_policysetstack_id:
+    network_policysetstack_id:
+    policy_set_id:
+    priority_policysetstack_id:
+    security_policyset_id:
+    service_binding:
+    tags:
