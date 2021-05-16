@@ -5,7 +5,7 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2021-05-16T17:53:47.109280Z
-+# Created at 2021-05-16T17:53:54.677461Z
++# Created at 2021-05-16T17:55:32.583326Z
  # by system_2751@soumyars2.com
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -16,15 +16,15 @@
          element_security_zones v2.0: []
          interfaces v4.10:
 -          '1':
-+          '21':
++          '12':
              admin_up: true
              attached_lan_networks:
              bound_interfaces:
              bypass_pair:
-+              lan: '1'
++              lan: '2'
 +              lan_state_propagation: false
 +              use_relay: false
-+              wan: '2'
++              wan: '1'
              description:
              devicemgmt_policysetstack_id:
              dhcp_relay:
