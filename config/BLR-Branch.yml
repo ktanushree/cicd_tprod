@@ -1,7 +1,7 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2021-05-10T14:34:25.357811Z
+# Created at 2021-05-16T17:53:47.109280Z
 # by system_2751@soumyars2.com
 sites v4.5:
   BLR-Branch:
@@ -40,7 +40,7 @@ sites v4.5:
             attached_lan_networks:
             bound_interfaces:
             bypass_pair:
-            description: ''
+            description:
             devicemgmt_policysetstack_id:
             dhcp_relay:
             directed_broadcast: false
@@ -50,17 +50,12 @@ sites v4.5:
             ipfixcollectorcontext_id:
             ipfixfiltercontext_id:
             ipv4_config:
-              dhcp_config:
-              dns_v4_config:
-              routes:
-              static_config:
-              type: dhcp
             mac_address:
             mtu: 1500
             nat_address:
             nat_pools:
             nat_port: 0
-            nat_zone_id: internet
+            nat_zone_id:
             network_context_id:
             parent:
             pppoe_config:
@@ -68,18 +63,17 @@ sites v4.5:
             secondary_ip_configs:
             service_link_config:
             site_wan_interface_ids:
-            - Circuit to T-MOBILE
             static_arp_configs:
             sub_interface:
             tags:
             type: port
-            used_for: public
+            used_for: none
           '2':
-            admin_up: false
+            admin_up: true
             attached_lan_networks:
             bound_interfaces:
             bypass_pair:
-            description: ''
+            description:
             devicemgmt_policysetstack_id:
             dhcp_relay:
             directed_broadcast: false
