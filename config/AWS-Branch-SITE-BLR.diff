@@ -1,0 +1,89 @@
+--- /tmp/ci/2751/cicd_tprod/config/AWS-Branch-SITE-BLR.yml
++++ /tmp/ci/2751/AWS-Branch-SITE-BLR_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2021-05-10T14:34:23.811939Z
++# Created at 2021-05-16T17:53:09.877410Z
+ # by system_2751@soumyars2.com
++# FROM_CLOUDBLADE
+ sites v4.5:
+   AWS-Branch-SITE-BLR:
+     address:
+@@ -75,38 +76,43 @@
+             type: port
+             used_for: public
+           '2':
+-            admin_up: false
+-            attached_lan_networks:
+-            bound_interfaces:
+-            bypass_pair:
+-            description: ''
+-            devicemgmt_policysetstack_id:
+-            dhcp_relay:
+-            directed_broadcast: false
+-            ethernet_port:
+-              full_duplex: false
+-              speed: 0
+-            ipfixcollectorcontext_id:
+-            ipfixfiltercontext_id:
+-            ipv4_config:
+-            mac_address:
+-            mtu: 1500
+-            nat_address:
+-            nat_pools:
+-            nat_port: 0
+-            nat_zone_id:
+-            network_context_id:
+-            parent:
+-            pppoe_config:
+-            scope: local
+-            secondary_ip_configs:
+-            service_link_config:
+-            site_wan_interface_ids:
+-            static_arp_configs:
+-            sub_interface:
+-            tags:
+-            type: port
+-            used_for: none
++            admin_up: true
++            attached_lan_networks:
++            bound_interfaces:
++            bypass_pair:
++            description: ''
++            devicemgmt_policysetstack_id:
++            dhcp_relay:
++            directed_broadcast: false
++            ethernet_port:
++              full_duplex: false
++              speed: 0
++            ipfixcollectorcontext_id:
++            ipfixfiltercontext_id:
++            ipv4_config:
++              dhcp_config:
++              dns_v4_config:
++              routes:
++              static_config:
++              type: dhcp
++            mac_address:
++            mtu: 1500
++            nat_address:
++            nat_pools:
++            nat_port: 0
++            nat_zone_id: internet
++            network_context_id:
++            parent:
++            pppoe_config:
++            scope: local
++            secondary_ip_configs:
++            service_link_config:
++            site_wan_interface_ids:
++            static_arp_configs:
++            sub_interface:
++            tags:
++            type: port
++            used_for: public
+           '3':
+             admin_up: false
+             attached_lan_networks:
